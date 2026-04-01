@@ -1,59 +1,69 @@
-# NexaCall
+﻿# NexaCall — Appointment Setting & BPO Web Platform
 
-Prishtina-based outbound call center specializing in appointment setting and lead generation for merchant services, payment processors, and MCA providers.
+Official marketing website for **NexaCall**, a Prishtina-based outbound call center specializing in appointment setting, lead generation, and BPO solutions for the merchant services and payment processing industry.
 
-## Tech Stack
+Built with a dark, high-performance design focused on conversion and professionalism.
 
-- **Framework**: Next.js 15 (App Router) + TypeScript
-- **Styling**: Tailwind CSS 3 with custom design tokens
-- **Animation**: Framer Motion
-- **Icons**: Lucide React
-- **Fonts**: Inter + Syne (Google Fonts)
+---
 
-## Getting Started
+## 🛠️ Features
+
+- Full presentation website for a B2B call center company
+- Smooth scroll navigation with animated sections
+- Services section showcasing all 5 core offerings
+- 4-step campaign process walkthrough
+- Why Us section with 8 competitive advantages
+- Contact form with validation and success state
+- Careers / job application page with CV upload
+- Fully responsive — mobile, tablet, desktop
+- Parallax hero with animated background effects
+- Custom dark theme with brand-green accent system
+
+---
+
+## 📄 Pages
+
+| Page | Description |
+|------|-------------|
+| `/` | Homepage — Hero, Services, Process, Why Us, Contact |
+| `/careers` | Job application form with position selector and CV upload |
+
+---
+
+## 🧩 Technologies Used
+
+- **Next.js 15** (App Router) + **TypeScript**
+- **Tailwind CSS 3** — custom brand tokens and utility classes
+- **Framer Motion** — scroll animations and page transitions
+- **Lucide React** — icon library
+- **Inter + Syne** — Google Fonts
+- **React Intersection Observer** — trigger animations on scroll
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/ElvirM1/NexaCall-CallCenterWeb.git
+
+cd NexaCall-CallCenterWeb
+
 npm install
+
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Build
+---
+
+## 📦 Build for Production
 
 ```bash
 npm run build
 npm run start
 ```
 
-## Project Structure
+---
 
-```
-nexacall/
-├── app/
-│   ├── layout.tsx          # Root layout with fonts + SEO metadata
-│   ├── page.tsx            # Homepage (Navbar → Hero → Services → Process → WhyUs → Contact → Footer)
-│   ├── globals.css         # Global styles, CSS variables, utility classes
-│   └── careers/
-│       └── page.tsx        # Careers / job application page
-├── components/
-│   ├── Navbar.tsx          # Fixed navigation with Services dropdown
-│   ├── Hero.tsx            # Full-screen hero with parallax background
-│   ├── Services.tsx        # 5 service cards (3+2 grid layout)
-│   ├── Process.tsx         # 4-step campaign launch process
-│   ├── WhyUs.tsx           # 8 competitive advantages
-│   ├── Contact.tsx         # Contact form + office info sidebar
-│   └── Footer.tsx          # Footer with CTA banner + nav links
-├── lib/
-│   └── utils.ts            # cn() Tailwind merge helper
-├── tailwind.config.ts      # Custom brand colors, shadows, animations
-├── next.config.ts
-├── tsconfig.json
-└── package.json
-```
-
-## Contact
-
-**Phone**: +383 49 725 153  
-**Email**: info@nexacall.com  
-**Address**: Rruga B, Prishtina, Kosovo
+> **NexaCall** · Prishtina, Kosovo · info@nexacall.com · +383 49 725 153
